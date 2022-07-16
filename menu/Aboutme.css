@@ -1,0 +1,94 @@
+body {
+    position: absolute;
+    width: 100%;
+    min-height: 100vh;
+    z-index: 2;
+}
+
+hedear {
+    font-family: sans-serif;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 40px 50px;
+    width: 100%;
+    display: flex;
+    align-items: top;
+    justify-content: space-between;
+    z-index: 1000;
+}
+
+img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.8;
+}
+
+.title {
+    color: white;
+    font-weight: bold;
+}
+
+.text {
+    color: #606060;
+}
+
+.font {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #03a9f4;
+    mix-blend-mode: overlay;
+}
+
+.toggle {
+    position: relative;
+    top: 10px;
+    width: 60px;
+    height: 60px;
+    background: url("../imgs/home.png");
+    background-repeat: no-repeat;
+    background-size: 40px;
+    cursor: pointer;
+}
+
+.main {
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+#photo {
+    top: 10px;
+    width: 150px;
+    height: 250px;
+    z-index: 1000;
+}
+
+#all_text {
+    position: relative;
+    left: 180px;
+}
+
+.download {
+    background: white;
+    color: #404040;
+    position: absolute;
+    left: 45%;
+    bottom: 50px;
+    padding: 10px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.download:hover {
+    color: #03a9f4;
+}
